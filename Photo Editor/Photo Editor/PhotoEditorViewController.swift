@@ -57,7 +57,7 @@ public final class PhotoEditorViewController: UIViewController {
 
     var stickersVCIsVisible = false
     @objc public var drawColor: UIColor = UIColor.black
-    var textColor: UIColor = UIColor.white
+    @objc public var textColor: UIColor = UIColor.white
     var isDrawing: Bool = false
     var lastPoint: CGPoint!
     var swiped = false
